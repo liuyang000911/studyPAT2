@@ -6,8 +6,7 @@ int main()
 	int b[10]={0};
 	int a[1000000]={0};
 	i=j=0;
-	while()
-	{
+	while(){
 		scanf("%d",&a[i]);
 		i++;
 		sum+=a[i];
@@ -17,8 +16,7 @@ int main()
 		j++;
 		sum=sum/10;
 	}
-	while(j)
-	{
+	while(j){
 		printf("%d",j--);
 	}
 	
